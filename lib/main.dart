@@ -60,7 +60,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       context,
                       MaterialPageRoute(
                           builder: (context){
-                            // TODO : REplacing with return RecipeDetail
                             return RecipeDetail(recipe: Recipe.samples[index]);
                           },
                       )
